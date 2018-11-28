@@ -1,0 +1,408 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 22px;
+  display: flex;
+  flex-flow: wrap;
+
+}
+
+.bg-image {
+  background: url('hero.jpeg');
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  display: flex;
+  width: 55%;
+  padding-top: 71px;
+}
+
+.mobilebtn i {
+  color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 30%;
+  padding-top: 55px;
+  padding-left: 111px;
+}
+.mobilebtn  {
+  display: flex;
+}
+.closebtn {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.close_button {
+  padding: 66px;
+}
+.dropbtn {
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 30%;
+    padding-top: 53px;
+    padding-left: 113px;
+}
+.dropdown {
+  color: white;
+  display: flex;
+  position: relative;
+  display: inline-block;
+  width: 30%;
+}
+
+.dropdown-content {
+  list-style: none;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  padding-top: 12px;
+  padding-left: 113px;
+  height: 0px;
+  overflow: hidden;
+  transition: 1s height;
+}
+
+.dropdown-content a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  border-color: transparent;
+  padding-top: 14px;
+  padding-bottom: 16px;
+}
+
+.dropdown-content a:hover {
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    /* display: block; */
+    height: 200px;
+}
+
+
+#whole_page_list_dropdown {
+  background: #00aca8;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  transition: height 0.4s;
+  overflow: hidden; /*kitaip rodytu visa laika */
+  font-size: 36px;
+  height: 0px;
+  }
+#whole_page_list_dropdown a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#whole_page_list_dropdown a:hover {
+  color: black;
+}
+
+.developer {
+  display: flex;
+  color: white;
+  width: 54%;
+  flex-wrap: wrap;
+  padding: 144px 0px;
+}
+.dev_h2 {
+  width: 100%;
+}
+.dev_p {
+  width: 100%;
+}
+
+.connect {
+  display: flex;
+}
+
+.connect a button {
+  background-color: lightseagreen;
+  color: white;
+  padding: 9px 61px;
+  border-style: hidden;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 1;
+  transition: all 500ms ease;
+}
+.connect span {
+  padding: 213px 80px;
+}
+
+.connect a button:hover {
+  opacity: 0.5;
+  transition: all 500ms ease;
+}
+#down button {
+  transition-timing-function: ease;
+}
+
+.speakers_photos {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  height: 570px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+.meet_speakers {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+.meet_speakers h1 {
+  padding-left: 20px;
+  }
+.speakers_left {
+  display: flex;
+  width: 49%;
+  background-image: url('img25.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  border-right: 2.5px solid white;
+}
+
+
+.speakers_right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 47%;
+}
+
+
+.speakers_right .img1{
+  background-image: url('img1.jpeg');
+  border-right: 15px solid white;
+  border-top: 5px solid white;
+  border-bottom: 15px solid white;
+  border-left: 30px solid white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.speakers_right .img2 {
+  background-image: url('img2.jpeg');
+  border-left: 15px solid white;
+  border-top: 5px solid white;
+  border-bottom: 15px solid white;
+  border-right: 15px solid white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.speakers_right .img3 {
+  background-image: url('img3.jpeg');
+  border-left: 30px solid white;
+  border-top: 15px solid white;
+  border-bottom: 5px solid white;
+  border-right: 15px solid white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.speakers_right .img4 {
+  background-image: url('img4.jpeg');
+  border-left: 15px solid white;
+  border-top: 15px solid white;
+  border-bottom: 5px solid white;
+  border-right: 15px solid white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 50%;
+  box-sizing: border-box;
+}
+.questions {
+  background-color: #674ea0;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 45px 0;
+}
+.questions_header {
+  align-items: center;
+  color: white;
+}
+.questions_header i {
+  font-size: 45px;
+  padding-left: 95px;
+}
+.inputs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.questions_form {
+  color: white;
+  width: 24%;
+}
+.pavarde label {
+  margin-left: 44px;
+}
+.pavarde input {
+  margin-left: 44px;
+}
+.email {
+  width: 100%;
+}
+.email input {
+  width: 100%;
+}
+.message {
+  width: 100%;
+}
+.message textarea {
+  border: none;
+  margin: 20px 0 0 0;
+  width: 100%;
+  height: 200px;
+}
+.submit button {
+  width: 101%;
+  background-color: #00aca8;
+  color: white;
+  border-style: none;
+  padding: 10px;
+}
+#scroll-top {
+  background: #00aca8;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+}
+#scroll-top i {
+  font-size: 43px;
+}
+
+
+@media (max-width: 1100px) {
+
+  .inputs {
+    display: block;
+  }
+  .pavarde {
+    margin-left: -43px;
+  }
+  .vardas input {
+    width: 100%;
+  }
+  .pavarde input {
+    width: 85%;
+  }
+}
+@media (max-width: 550px) {
+  .dropbtn {
+    display: none;
+  }
+  .mobilebtn {
+    display: block
+  }
+  .mobilebtn i {
+    display: block
+  }
+  .dropdown-content {
+    padding-left: 103px;
+  }
+  .connect {
+    display: block;
+  }
+  .meet_speakers{
+    height: 1150px;
+  }
+  .speakers_right {
+    display: flex;
+    width: 100%;
+  }
+  .speakers_right .right_photos  {
+    height: 250px;
+
+  }
+  .speakers_right .img1 {
+    border-left: 0px solid white;
+  }
+  .speakers_right .img3 {
+    border-left: 0px solid white;
+  }
+  .speakers_right .img2 {
+    border-right: 0px solid white;
+  }
+  .speakers_right .img4 {
+    border-right: 0px solid white;
+  }
+  .speakers_left {
+    display: block;
+    width: 100%;
+    height: 570px;
+
+  }
+  .developer {
+    padding: 74px 0px;
+  }
+  .inputs {
+    display: block;
+  }
+  .pavarde {
+    margin-left: -43px;
+  }
+  .pavarde input {
+    width: 87%;
+  }
+  .vardas input {
+    width: 100%;
+  }
+  .questions_form {
+    min-width: 300px;
+  }
+  .dropdown-content a {
+    display: none;
+  }
+  .whole_page_list:hover .whole_page_list_dropdown {
+    width: 100%;
+    background-color: green;
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+}
